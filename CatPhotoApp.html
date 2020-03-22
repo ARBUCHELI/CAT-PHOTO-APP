@@ -1,10 +1,10 @@
-<h2>CatPhotoApp</h2>
+<h2>CatPhotoApp</h2> <!--Title-->
 <main>
-  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  <p>Click here to view more <a href="#">cat photos</a>.</p> <!--hef="#" is a dummy empty link-->
 
   <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
 
-  <div>
+  <div> <!--Div that contains the two lists.-->
     <p>Things cats love:</p>
     <ul>
       <li>cat nip</li>
@@ -19,13 +19,45 @@
     </ol>
   </div>
 
-  <form action="/submit-cat-photo">
-    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <form action="/submit-cat-photo"> <!--The action attribute defines where to send the form-data when a form is submitted.-->
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label> <!--Input type and the checked option by default is Indoor.-->
     <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality" checked> Loving</label> <!--Input type and the checked option by default is Lovins.-->
     <label><input type="checkbox" name="personality"> Lazy</label>
     <label><input type="checkbox" name="personality"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
+    <!-- There are several different type of input type:
+      <input type="button">
+      <input type="checkbox">
+      <input type="color">
+      <input type="date">
+      <input type="datetime-local">
+      <input type="email">
+      <input type="file">
+      <input type="hidden">
+      <input type="image">
+      <input type="month">
+      <input type="number">
+      <input type="password">
+      <input type="radio">
+      <input type="range">
+      <input type="reset">
+      <input type="search">
+      <input type="submit">
+      <input type="tel">
+      <input type="text">
+      <input type="time">
+      <input type="url">
+      <input type="week">-->
+    
     <button type="submit">Submit</button>
+    <!-- The default behavior of the button. Possible values are:
+    submit: The button submits the form data to the server. This is the default if the 
+    attribute is not specified for buttons associated with a <form>, or if the attribute is an 
+    empty or invalid value.
+    reset: The button resets all the controls to their initial values, like <input type="reset">. 
+    (This behavior tends to annoy users.)
+    button: The button has no default behavior, and does nothing when pressed by default. 
+    It can have client-side scripts listen to the element's events, which are triggered when the events occur.
   </form>
 </main>
