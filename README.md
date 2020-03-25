@@ -5,7 +5,7 @@ Simple app that uses only HTML.  The app shows the implementation of web forms, 
 <strong>INSTRUCTIONS</strong>
 
 1. Download and Unzip the repository folder.
-2. Open the CatPhotoApp.html file, to see the App.
+2. Open the CatPhotoApp.html file with Google Chrome to see the App.
 
 ![Cat Photo App](https://github.com/anferebu/CAT-PHOTO-APP/blob/master/CatApp.jpg)
 
