@@ -9,4 +9,4 @@ Simple app that uses only HTML.  The app shows the implementation of web forms, 
 
 ![Cat Photo App](https://github.com/anferebu/CAT-PHOTO-APP/blob/master/CatApp.jpg)
 
-Author: Andrés R. Bucheli
+# Author: Andrés R. Bucheli
